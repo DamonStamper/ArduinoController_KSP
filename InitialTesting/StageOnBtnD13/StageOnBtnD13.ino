@@ -72,7 +72,8 @@ void setup() {
 void loop() {
   krpc_error_t error;
 
-  bool stage = true;
+  // Stage.
+  bool stage = digitalRead(STAGE_PIN) == LOW;
   if (stage && !previousStage) {
       krpc_SpaceCenter_Control_ActivateNextStage(conn, NULL, control);
   }
