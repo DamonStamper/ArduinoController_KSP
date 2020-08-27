@@ -1,9 +1,12 @@
+# Purpose
+To create a hardware controller capable of controlling Kerbal Space Program.
+
 # Requirements
 Hardware for controller (I plan to post BOM and a schematic)
 Arduino drivers for your OS
 
-KRPC 0.4.8 (game mod)
-kRPC 0.4.8 (Arduino library)
+[KRPC 0.4.8 (game mod)](https://krpc.github.io/krpc/getting-started.html0)
+[kRPC 0.4.8 (Arduino library)](https://github.com/krpc/krpc-arduino)
 
 # Gotchas!
 ## Configuring the KSP kRPC in-game for SerialIO
